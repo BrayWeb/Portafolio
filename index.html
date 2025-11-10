@@ -1,21 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal y profesional de un desarrollador web.">
+  <title> Brayder Jaramillo</title>
+  <link rel="stylesheet" href="./style.css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Este es mi portafolio</h1>
-    <h2>Brayder Jaramillo</h2>
-    <table>
-        <tr>
-            <td>Activida#1</td>
-            <td><a href="https://github.com/BrayWeb/m1_python_actividad_1"></a>Ver actividad #1</td>
-            <td>Moodle#1</td>
-            <td><a href="https://github.com/BrayWeb/m1_python_moodle_week_1"></a>Ver actividad #1</td>
-            
-        </tr>
-    </table>
+
+  <!-- ======= NAVBAR ======= -->
+  <header class="navbar">
+    <div class="logo">Brayder Jaramillo<span>.</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Actividades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======= INICIO ======= -->
+  <section id="inicio" class="inicio">
+    <div class="banner">
+      <h1>Hola, soy <span>Brayder Jaramillo</span></h1>
+      <p>Bienvenidos a mi portafolio,en la parte de abajo van a encontrar mis proyectos</p>
+      <a href="#proyectos" class="btn">Ver mis actividades</a>
+    </div>
+  </section>
+
+  <!-- ======= SOBRE MI ======= -->
+  <section id="sobre-mi" class="sobre-mi">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <p>
+        Hola, mi nombre es Brayder. Tengo 27 años y soy de la ciudad de Medellín. Actualmente estoy en Riwi.
+        Me considero una persona divertida, amigable y respetuosa. En mi tiempo libre me gusta escuchar musica , ver anime.
+      </p>
+      <p>
+        Me motiva resolver problemas y convertir ideas en productos digitales funcionales y atractivos.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======= PROYECTOS ======= -->
+  <section id="proyectos" class="proyectos">
+    <div class="container">
+      <h2>Actividades</h2>
+      <div class="grid-proyectos">
+        <!-- Proyecto 1 -->
+        <div class="proyecto">
+          
+          <div class="proyecto-info">
+            <h3>Actividad#1</h3>
+            <p>Ejercicios Python</p>
+            <a href="https://github.com/BrayWeb/m1_python_actividad_1" target="_blank" class="btn-secundario">Ver proyecto</a>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="proyecto">
+          
+          <div class="proyecto-info">
+            <h3>Actividad #1 Moodle</h3>
+            <p>Inventario en python y diagrama de flujo</p>
+            <a href="https://github.com/BrayWeb/m1_python_moodle_week_1"" target="_blank" class="btn-secundario">Ver proyecto</a>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+         <div class="proyecto">
+          
+          <div class="proyecto-info">
+            <h3>Actividad #2</h3>
+            <p>Menú con listas</p>
+            <a href="https://github.com/BrayWeb/m1_python_actividad_2"" target="_blank" class="btn-secundario">Ver proyecto</a>
+          </div>
+        </div>
+        
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <p>© 2025 Brayder Jaramillo.</p>
+  </footer>
+
 </body>
 </html>
