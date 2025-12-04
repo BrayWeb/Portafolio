@@ -40,7 +40,7 @@ a {
 }
 
 .logo span {
-  color: #0078ff;
+  color: #aa3a3a;
 }
 
 .nav-links {
@@ -55,12 +55,12 @@ a {
 }
 
 .nav-links a:hover {
-  color: #0078ff;
+  color: #aa3a3a;
 }
 
 /* ======= INICIO / BANNER ======= */
 .inicio {
-  background: linear-gradient(to right, #0078ff, #00b4d8);
+  background: linear-gradient(to right, #c42e2e, #33393a);
   color: white;
   text-align: center;
   padding: 8rem 2rem;
@@ -72,7 +72,7 @@ a {
 }
 
 .banner h1 span {
-  color: #ffe600;
+  color: #f0eeee;
 }
 
 .banner p {
@@ -82,7 +82,7 @@ a {
 
 .btn {
   background: white;
-  color: #0078ff;
+  color: #c42e2e;
   padding: 0.8rem 1.5rem;
   border-radius: 25px;
   transition: all 0.3s ease;
@@ -90,7 +90,7 @@ a {
 }
 
 .btn:hover {
-  background: #0078ff;
+  background: #c42e2e;
   color: white;
   border: 2px solid white;
 }
@@ -110,7 +110,7 @@ a {
 .sobre-mi h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #0078ff;
+  color: #c42e2e;
 }
 
 /* ======= PROYECTOS ======= */
@@ -122,7 +122,7 @@ a {
 .proyectos h2 {
   text-align: center;
   margin-bottom: 3rem;
-  color: #0078ff;
+  color: #c42e2e;
 }
 
 .grid-proyectos {
